@@ -1,0 +1,23 @@
+.header-container {
+    background-color: #0A285F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-img {
+    height: 100px;
+}
+
+.header-name {
+    font-size: 3em;
+    margin: 0;
+    margin-right: 50px;
+    color: #FFCC00;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

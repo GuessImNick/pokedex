@@ -1,0 +1,36 @@
+.poke-container {
+    margin-right: 50px;
+}
+
+.poke-list-item {
+    border: 2px solid #0A285F;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    width: 150px;
+    flex-basis: 20%;
+    margin: 5px;
+    background-color: #DFDFDF;
+    box-shadow: 5px 5px 15px 2px #0A285F;
+}
+
+.poke-list-item:hover {
+    filter: brightness(90%);
+    box-shadow: 5px 5px 15px 5px #0A285F;
+}
+
+.poke-list {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+.poke-name {
+    text-align: center;
+    color: black;
+}
+
+.poke-list-item {
+    display: flex;
+    flex-direction: column;
+}

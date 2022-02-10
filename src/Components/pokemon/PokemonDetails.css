@@ -1,0 +1,166 @@
+.name-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.poke-photo {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.poke-name {
+    text-align: center;
+    margin: 0;
+}
+
+.poke-card {
+    border: 2px solid #0A285F;
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: #DFDFDF;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.poke-types {
+    display: flex;
+    justify-content: center;
+}
+
+.type {
+    border-radius: 10px;
+    width: 90px;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+}
+
+.normal {
+    background-color: #A8A77A;
+}
+
+.grass {
+    background-color: #7AC74C;
+}
+
+.poison {
+    background-color: #A33EA1;
+}
+
+.fire {
+    background-color: #EE8130;
+}
+
+.water {
+background-color: #6390F0;
+}
+
+.electric {
+background-color: #F7D02C;
+}
+
+.ice {
+    background-color: #96D9D6;
+}
+
+.fighting {
+    background-color: #C22E28;
+}
+
+.ground {
+    background-color: #E2BF65;
+}
+
+.flying {
+    background-color: #A98FF3;
+}
+
+.psychic {
+    background-color: #F95587;
+}
+
+.bug {
+    background-color: #A6B91A;
+}
+
+.rock {
+    background-color: #B6A136;
+}
+
+.ghost {
+    background-color: #735797;
+}
+
+.dragon {
+    background-color: #6F35FC;
+}
+
+.dark {
+    background-color: #705746;
+}
+
+.steel {
+    background-color: #B7B7CE;
+}
+
+.fairy {
+    background-color: #D685AD;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.stat-container {
+    width: 100px;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.stat-stat {
+    border: 2px solid #0A285F;
+    border-radius: 2px;
+    height: 30px;
+    width: 40px;
+    justify-self: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-name {
+    font-size: .84em;
+    margin-bottom: 5px;
+}
+
+.nav-div {
+    height:25%;
+}
+
+.nav {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.poke-nav:hover {
+    transform: scale(1.3);
+}
+
